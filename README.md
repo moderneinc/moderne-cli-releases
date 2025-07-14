@@ -10,18 +10,15 @@ The Moderne CLI is a tool that allows you to build and publish [Lossless Semanti
 # Stable releases
 brew install moderneinc/moderne/mod
 
-# Beta releases (latest pre-release)
+# Staging releases (latest pre-release)
 brew install moderneinc/moderne/mod --head
 ```
 
 ### Chocolatey (Windows)
 
 ```powershell
-# Stable releases
-choco install mod
-
-# Beta releases
-choco install mod-beta
+# We only support staging releases
+choco install mod --prerelease
 ```
 
 ### Direct download
@@ -42,7 +39,7 @@ Archive formats are also available:
 
 Pre-releases are available through:
 - Homebrew head formula (`mod --head`)
-- Chocolatey beta package (`mod-beta`)
+- Chocolatey beta package (`mod --prerelease`)
 - Direct download from the releases page
 
 ### Stable releases
